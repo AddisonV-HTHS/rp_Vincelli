@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Neuroscience of Memory: A Study of the Correlation Between Working Memory Stimulus and Theta Wave Activity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+                rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+                crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+                crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+    <div class="container-lg">
+
+        <!--*Nav*-->
+        <nav class="navbar navbar-expand-lg navbar-dark nb-background-color">
+
+            <!--LG means large breakpoint for resizing, navbar-dark means dark bar light text-->
+            <div class="container">
+                <!--TODO: change image again to match vibes-->
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/droplet.png" alt="Water Droplet Logo" class="d-inline-block align-text-top w-50">
+                </a>
+
+                <!--Hamburger Menu Button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+
+                <!--*Collapsable Navbar Menu w/ Hover Underline*-->
+                <div class="collapse navbar-collapse" id="navmenu">
+
+                    <!--*Links to menu button-->
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link hover-underline-animation nbMenuItem">Overview</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="authors.html" class="nav-link hover-underline-animation nbMenuItem">Authors</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="procedure.html" class="nav-link hover-underline-animation nbMenuItem">Procedure</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="results.html" class="nav-link hover-underline-animation nbMenuItem">Results</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--*Procedure Table-->
+        <section class="procedure">
+            <div class="container">
+                
+                <br>
+                <div class="text-center">
+                    <h1>Procedure</h1>
+                    <h2> Step-by-step description of metholodology used in this study </h2>
+                </div>
+
+                <hr><br> <!--Horizontal line then line break-->
+
+                <!--*Table Time*-->
+                <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
+
+                    <!--*Header Row*-->
+                    <thead>
+                        <tr class="table-primary">
+
+                            <th><h3>Step</h3></th>
+
+                            <th><h3>Description</h3></th>
+
+                            <th><h3>Image</h3></th>
+
+                        </tr>
+                    </thead>
+
+                    <!--*Body rows*-->
+                    <tbody class="table-group-divider">
+                        <!--TODO: Update Images - 1 2 3 4 5 6 7-->
+                        <!--*Row 1*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>1</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Purchase and Download EmotivPRO</h3>
+                                <p class="howTo">EmotivPRO is the software needed to record and analyze EEG data</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/python-logo.png" alt="python logo">
+                            </td>
+                        </tr> <!--end row 1-->
+
+                        <!--*Row 2*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>2</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Prepare EEG Headset</h3>
+                                <p class="howTo">In order to prepare the EEG, the sensors must be hydrated with saline solution</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/range-finder-tp.png" alt="SR04 Range Finder">
+                            </td>
+                        </tr> <!--end row 2-->
+
+                        <!--*Row 3*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>3</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Connect EEG to EmotivPRO</h3>
+                                <p class="howTo">Connection can be wired or wireless via Bluetooth</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/nano33-iot3.png" alt="Nano iot">
+                            </td>
+                        </tr> <!--end row 3-->
+
+                        <!--*Row 4*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>4</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Fit Headset to Participant</h3>
+                                <p class="howTo">Each sensor should be contacting the participant's skin for best reading</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/arduino-logo.png" alt="arduino logo">
+                            </td>
+                        </tr> <!--end row 4-->
+
+                        <!--*Row 5*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>5</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Check Sensor Quality Map</h3>
+                                <p class="howTo">EEG quality should be 80% or higher; if this is not the case, rehydrate sensors</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/firebase-logo.png" alt="firebase logo">
+                            </td>
+                        </tr> <!--end row 5-->
+
+                        <!--*Row 6*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>6</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Record Baseline Data</h3>
+                                <p class="howTo">A 30 second recording must be taken of the participant relaxed with their eyes open</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/firebase-logo.png" alt="firebase logo">
+                            </td>
+                        </tr> <!--end row 6-->
+
+                        <!--*Row 7*-->
+                        <tr class="align-middle">
+                            <th scope="row" class="table-secondary">
+                                <h3>7</h3>
+                            </th>
+
+                            <td>
+                                <h3 class="howTo">Record Experimental Data</h3>
+                                <p class="howTo">During the experimental portion of the recording, participants will be read a (4-5 digit) <br> string of numbers, which they will be asked to repeat backwards (ex. 1234 becomes 4321)</p>
+                            </td>
+
+                            <td class="text-center">
+                                <img src="img/firebase-logo.png" alt="firebase logo">
+                            </td>
+                        </tr> <!--end row 7-->
+
+                    </tbody>
+
+                </table>
+
+            </div> <!--end container-->
+        </section>
+
+        <!--*Footerrrr (using a Bootstrap icon)-->
+        <footer class="p-5 footer text-light text-center position-relative">
+            <div class="container">
+
+                <p class="lead"> Copyright &copy; Research Practicum 2025 </p>
+                <a href="#" class="position-absolute bottom-0 end-0 p5">
+                    <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+                </a>
+ 
+            </div>
+        </footer>
+
+    </div> <!--end all encompassing container-->
+</body>
+</html>
