@@ -68,6 +68,10 @@
     font-weight:bold;
 }
 
+.photo img{
+    height:450px;
+}
+
 
 
 /* ----------------- ID CSS ----------------- */
@@ -101,4 +105,9 @@
 
 li{
     font-size: 15px;
+}
+
+td img{
+    height:150px;
+    width:150px;
 }
