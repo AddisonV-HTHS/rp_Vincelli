@@ -6,11 +6,12 @@
 }
 
 .about-team{
-    color:rgb(82, 81, 81)
+    background-color:#c3bef0;
+    color:#023E8A;
 }
 
 .authors{
-    background-color: #dbe3e7;
+    background-color: #c3bef0;
 }
 
 .body{
@@ -18,25 +19,33 @@
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: #defcf9;
+
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
     color: #FFFFFF;
 }
 
+.link{
+    text-decoration:none;
+    color:#023E8A;
+}
+
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #cca8e9;
 }
 
 .nbMenuItem{               /* navbar link text properties */
     font-size:25px;
     margin-left: 10px;
     margin-right: 10px;
+    color: #023E8A;
 }
 
 .overview{
-    background-color: #dbe3e7;
+    background-color: #cadefc;
+    color: #023E8A;
 }
 
 .ovPadLeft{
@@ -55,22 +64,38 @@
     padding-bottom: 20px;
 }
 
+.photo img{
+    height:450px;
+}
+
 .procedure{
-    background-color: #dbe3e7;
+    background-color: #c3bef0;
     padding: 1px;
 }
 
+.procedure-header{
+    color:#023E8A;
+}
+
+.psize{
+    height:60px;
+}
+
+.row{
+    background-color:#cadefc;
+}
+
+
+
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #c3bef0; /*#0096c7*/
+    color:#023E8A;
 }
 
 .strong{
     font-weight:bold;
 }
 
-.photo img{
-    height:450px;
-}
 
 
 
@@ -91,7 +116,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #eae6e6;
+    background-color: #023E8A;
     /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
@@ -110,4 +135,8 @@ li{
 td img{
     height:150px;
     width:150px;
+}
+
+table{
+    color:#023E8A;
 }
