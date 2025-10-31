@@ -1,7 +1,7 @@
 // Code for generating a Chart.js scatter chart
 
 const getData = async () =>{
-    const response = await fetch('/data/total-mean.csv') //.. used to move up one folder
+    const response = await fetch('data/total-mean.csv') //.. used to move up one folder
     const data = await response.text();
 
     const xParticipant = []; //x axis label = Participant 
