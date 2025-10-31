@@ -18,6 +18,19 @@
     background-color: rgb(90, 92, 92);
 }
 
+#chart-wrapper{
+    margin: auto;
+    padding: 10px;
+    min-height: 400px;
+    background-color: #c3bef0 !important;
+    justify-content: center;
+    align-items: center;  
+}
+
+#scatter{
+    background-color:rgb(236, 236, 236);
+}
+
 .footer{
     background-color: #defcf9;
 
